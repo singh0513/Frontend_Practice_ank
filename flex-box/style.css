@@ -56,8 +56,7 @@
 
 .inner-icons {
     display: flex;
-    gap: 8px;
-    padding: 12px;
+    gap: 20px;
 }
 
 .border {
