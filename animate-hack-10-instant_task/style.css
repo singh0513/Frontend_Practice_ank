@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.main-sec-2 {
+    padding: 12px;
+}
+
+.contain-user {
+    color: #999191;
+    font-size: 14px;
+}
+
+.card-img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.main {
+    width: 500px;
+    border: 1px solid lightgray;
+    margin: 50px auto;
+    border-radius: 12px;
+}
+
+
+.main-side-dot {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.inside-main {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+    padding: 12px;
+}
+
+.inner-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.border {
+    border: 0.5px solid #a9a9a940;
+    margin-top: 10px;
+}
+
+
+/* ==========================================================================animaye video =================== */
+
+
+.main-sec {
+    width: 400px;
+    margin: 60px auto;
+    padding: 12px 12x;
+    border: 1px solid lightgray;
+}
+
+.main-sec img {
+    width: 100%;
+}
+
+
+
+
+.animate-load {
+    width: 100%;
+    height: 60px;
+    display: block;
+    background: linear-gradient(	  
+        to right,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0.5) 50%,
+        rgba(255, 255, 255, 0) 80%
+      ),
+      lightgray;
+    background-repeat: repeat-y;
+    background-size: 50px 500px;
+    background-position: 0 0;
+    animation: shine 1s infinite;	  
+  }
+  @keyframes shine {	
+    to {
+      background-position: 100% 0,  0 0;
+    }
+  }
